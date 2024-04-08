@@ -3,8 +3,8 @@ import 'package:flutter_svg/svg.dart';
 import 'package:internship/src/core/base_import.dart';
 import 'package:internship/src/widgets/components/custom_button.dart';
 
-class BMIContent extends StatelessWidget {
-  const BMIContent({super.key});
+class BMIDetail extends StatelessWidget {
+  const BMIDetail({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -24,7 +24,7 @@ class BMIContent extends StatelessWidget {
               SizedBox(
                 width: 20,
               ),
-              SvgPicture.asset('assets/gungsatria/icons/ic_detail_bmi.svg'),
+              SvgPicture.asset('assets/gungsatria/icons/ic_detail.svg'),
               SizedBox(
                 width: 8,
               ),
